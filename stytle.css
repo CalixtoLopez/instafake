@@ -10,6 +10,9 @@ header{
 header h1{
     margin:0;
 }
+div.post img{
+    width: 100%;
+}
 
 div.post{
     background: white;
