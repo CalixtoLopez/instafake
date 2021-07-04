@@ -1,0 +1,21 @@
+body{
+    background: #BDBDBD;
+    margin: 0px;
+}
+
+
+header{
+    background: white;
+}
+header h1{
+    margin:0;
+}
+
+div.post{
+    background: white;
+}
+
+div.cointainer{
+    width: 600px;
+    margin: auto;
+}
