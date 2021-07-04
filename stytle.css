@@ -6,6 +6,7 @@ body{
 
 header{
     background: white;
+    padding: 10px;
 }
 header h1{
     margin:0;
@@ -13,11 +14,23 @@ header h1{
 div.post img{
     width: 100%;
 }
+div.post .post-header div:first-child{
+    display: inline-block;
+    width: 80%;
+    background: green;
+}
+div.post .post-header div:last-child{
+    display: inline-block;
+    width: 20%;
+    background: yellow;
+}
 
 div.post{
     background: white;
 }
-
+div.post h2, div.post p{
+    padding: 5px;
+}
 div.cointainer{
     width: 600px;
     margin: auto;
